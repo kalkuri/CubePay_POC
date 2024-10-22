@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #f33b43;
+    padding: 10px;
+}
+
+.card mt-3 {
+    border: none;
+    width: 1000;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.d-flex {
+    align-items: center;
+}
+
+.badge-success,
+.badge-secondary {
+    font-size: 14px;
+}
+
+.pagination {
+    margin: 0;
+
+}
+
+.form-control-sm {
+    width: 10px;
+}
+
+
+.btn-circle {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #6c757d;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-circle svg {
+    width: 24px;
+    height: 24px;
+    fill: #6c757d;
+}
+
+.ellipsis-menu {
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+    .filter-input {
+        height: 20px;
+        width: 250px;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 768px) {
+    .search-input {
+        height: 20px;
+        width: 600px;
+        margin-right: 40%;
+        
+    }
+}
+
+
+@media (min-width: 768px) {
+    .add-input {
+        height: 50px;
+        width: 200px;
+        padding: 15px;
+        margin-left: 5%;
+    }
+}
+
+.btn-danger {
+    width: 100px;
+}
+
+.pagination-container {
+    padding-top: 10px;
+    margin-top: 100px;
+    background-color: rgb(209, 205, 186);
+}
+
+.status {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(189, 231, 189);
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+
+.dot-paid {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+}
+
+.bg-paid {
+    color: green;
+}
+
+.status-inactive {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EAEAEA;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+
+.dot-inactive {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(86, 88, 86);
+    margin-right: 5px;
+}
+
+.bg-inactive {
+    color: rgb(86, 88, 86);
+}
