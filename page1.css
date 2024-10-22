@@ -1,0 +1,107 @@
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #3573f0;
+    color: white;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+.image1{
+    background-size: 20px;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.search-input {
+    background: url('https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/search.svg') no-repeat scroll 7px 7px;
+    background-size: 16px 16px;
+    padding-left: 30px;
+    color: #8670bb;
+}
+
+.table-container {
+    
+    /* margin: 20px auto; */
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.table thead {
+    background-color: #f0f0f0;
+    /* font-size: 26px; */
+    
+}
+tbody tr {
+    border-bottom: 1px solid rgb(241, 233, 233); 
+}
+
+thead {
+    
+    border-bottom: 2px solid rgb(188, 196, 192); 
+}
+.filter {
+    border: 1px solid #b093f5;
+    margin-right: 30px;
+}
+
+.btn-circle {
+    width: 19px;
+    height: 19px;
+    padding: 0;
+    border-radius: 50%;
+    border: 2px solid #6c757d;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.btn-circle svg {
+    width: 24px;
+    height: 24px;
+    fill: #6c757d;
+}
+ 
+.ellipsis-menu {
+    cursor: pointer;
+}
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.btn-primary {
+    background-color: #3573f0;
+    border-color: #3573f0;
+}
+
+.pagination-container {
+    
+    padding-top: 20px;
+    margin-top: 150px;
+    background-color: rgb(209, 205, 186);
+}
+
+.badge.bg-success {
+    background-color: green;
+}
+
+.last-row{
+    font-size: 12px;
+}
