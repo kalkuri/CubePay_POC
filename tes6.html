@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Form Example</title>
+    <style>
+        .icon-right {
+            position: absolute;
+            right: 10px;
+            top: 55%;
+        }
+        .navbar {
+            background-color: #d32f2f !important;
+            padding: 20px;
+        }
+ 
+ 
+        .nav-tabs .nav-link {
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+ 
+        .position-relative {
+            margin-bottom: 20px;
+            /* Adds space between fields */
+        }
+ 
+       
+        .id-text{
+            font-family: Roboto;
+            font-weight: 600;
+           
+        }
+ 
+        .ss {
+            width: 90px; /* Adjust the width of the logo */
+            height: auto; /* Maintain aspect ratio */
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+ 
+        .heading {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+        }
+ 
+        .maindiv {
+            border-color: black;
+            border-radius: 50px;
+        }
+ 
+        .div1 {
+            /* width: 600px; */
+            height: 30px;
+            background-color: blue;
+           
+        }
+ 
+        .div2 {
+            width: 600px;
+            height: 10px;
+        }
+        .div3{
+            border-color: black;
+            border-width: 20px;
+        }
+       
+        .form-label{
+             font-family: Roboto;
+            font-weight: 600;
+        }
+        .ss1{
+            width:30px;
+            height:40px;
+            margin-right:80px;
+        }
+        .logo{
+            margin-left: 20px;
+        }
+        .report{
+            height: 250px;
+            width: 250px;
+            text-align: right;
+        }
+        .ss2{
+            width:250px;
+            height:180px;
+            margin-left:350px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar navbar-expand-lg bg-danger text-black">
+        <div class="container">
+            <a href="" class="navbar-brand ">Your Are In</a>
+            <a href="" class="navbar-brand ">Singapore ▼</a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">ITEM1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-black">ITEM2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-black">ITEM3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <div class = "logo">
+        <img width="100" height="100" src= "https://upload.wikimedia.org/wikipedia/commons/e/e0/UOB_Logo_%282022%29.svg" alt="UOB Logo">
+    </div>
+ 
+    <p class="heading">VIEW/Edit Profile</p>
+    <div class="container mt-3 div2">
+        <form>
+            <div class="d-flex flex-row justify-content-between">
+            <div class="mb-3 w-50 position-relative">
+                <label for="name" class="form-label ">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <span class="icon-right"><i class="fas fa-edit"></i></span>
+               
+            </div>
+            <div>
+                <span class="id-text">ID:01</span>
+            <img src="C:\Users\pavan kumar\Pictures\Screenshots\Screenshot 2024-10-21 182529.png" class="ss1">
+        </div>
+            </div>
+ 
+            <div class="mb-3 position-relative">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" rows="2">5-170/ Ab21,New York.</textarea>
+                <span class="icon-right"><i class="fas fa-edit"></i></span>
+            </div>
+ 
+            <div class = "report">
+                <img src="C:\Users\pavan kumar\Pictures\Screenshots\Screenshot 2024-10-22 113727.png" class="ss2">
+            </div>
+           
+            <div class="d-flex justify-content-start">
+                <button type="button" class="btn btn-outline-danger mx-2">Cancel</button>
+                <button type="submit" class="btn btn-danger mx-2">Save</button>
+            </div>
+        </form>
+    </div>
+ 
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+ 
+</html>

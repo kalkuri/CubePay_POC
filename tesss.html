@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Form Example</title>
+    <style>
+        .icon-right {
+            position: absolute;
+            right: 10px;
+            top: 55%;
+        }
+
+        .position-relative {
+            margin-bottom: 20px;
+            /* Adds space between fields */
+        }
+
+        .navbar-custom {
+            background-color: #007bff;
+            /* Bootstrap primary blue */
+        }
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: white;
+            /* White text for navbar */
+        }
+
+        .navbar-custom .nav-link:hover {
+            color: #e7e7e7;
+            /* Lighten on hover */
+        }
+        
+        .id-text{
+            font-family: Roboto;
+            font-weight: 600;
+            
+        }
+
+        .ss {
+            width: 90px; /* Adjust the width of the logo */
+            height: auto; /* Maintain aspect ratio */
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+
+        .para {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .maindiv {
+            border-color: black;
+            border-radius: 50px;
+        }
+
+        .div1 {
+            width: 1110px;
+            height: 30px;
+            background-color: blue;
+        }
+        .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid black; /* Adds a black border around the card */
+    /* border-radius: 10px;  */
+    padding: 20px; /* Adds some space inside the card */
+    width:1110px;
+    height:700px;
+}
+
+
+        .div2 {
+            width: 500px;
+            height: 10px;
+        }
+        .div3{
+            border-color: black;
+            border-width: 20px;
+        }
+        
+        .form-label{
+             font-family: Roboto;
+            font-weight: 600;
+        }
+        .ss1{
+            width:30px;
+            height:40px;
+            margin-right:80px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container mt-5 div1" >
+    </div>
+    <div class="container">
+        <div class="card">
+
+    <!-- Logo -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/UOB_Logo_%282022%29.svg" alt="UOB Logo" class="ss">
+
+    <!-- Title -->
+    <p class="para">VIEW/Edit Profile</p>
+
+    <!-- Form Section -->
+    <div class="container mt-3 div2">
+        <form>
+            <!-- Name Field -->
+            <div class="d-flex flex-row justify-content-between">
+            <div class="mb-3 w-50 position-relative">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <span class="icon-right"><i class="fas fa-edit"></i></span>
+               
+            </div>
+            <div>
+            <span class="id-text">ID:01</span>
+        <img src="C:\Users\pavan kumar\Pictures\Screenshots\Screenshot 2024-10-21 182529.png" class="ss1">
+    </div>
+    </div>
+
+            <!-- Email Field -->
+            <div class="mb-3 position-relative">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                <span class="icon-right"><i class="fas fa-edit"></i></span>
+            </div>
+
+            <!-- Address Field -->
+            <div class="mb-3 position-relative">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Enter your address">
+                <span class="icon-right"><i class="fas fa-edit"></i></span>
+            </div>
+
+            <!-- Contact Number Field -->
+            <div class="mb-3 position-relative">
+                <label for="contact" class="form-label">Contact Number</label>
+                <input type="tel" class="form-control" id="contact" placeholder="Enter your contact number">
+                <span class="icon-right"><i class="fas fa-edit"></i></span>
+            </div>
+
+            <!-- Password Field -->
+            <div class="mb-3 position-relative">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <!-- Confirm Password Field -->
+            <div class="mb-3 position-relative">
+                <label for="confirm-password" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm your password">
+            </div>
+
+            <!-- Buttons -->
+            <div class="d-flex justify-content-start">
+                <button type="button" class="btn btn-secondary mx-2">Cancel</button>
+                <button type="submit" class="btn btn-primary mx-2">Save</button>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+</div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
