@@ -73,10 +73,17 @@ body {
         height: 20px;
         width: 600px;
         margin-right: 40%;
-        
+
     }
 }
-
+@media (min-width: 768px) {
+    .search-input-text {
+        background:url('https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/search.svg') no-repeat scroll 7px 7px;
+        background-size: 16px 16px;
+        padding-left: 30px;
+        
+    }    
+}
 
 @media (min-width: 768px) {
     .add-input {
